@@ -19,3 +19,5 @@ mongo.initDb((err, _) => {
     console.log('Node app is running on port', app.get('port'))
   })
 })
+
+module.exports = app
