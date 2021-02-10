@@ -12,7 +12,7 @@ app.use(bodyParser.json()) // to be able to receive json in requests
 app.get('/:name', controller.getExample)
 app.post('/', controller.postExample)
 
-app.set('port', 3040)
+app.set('port', process.env.PORT || 3040)
 mongo.initDb((err, _) => {
   if (err) console.error(err)
   else app.listen(app.get('port'), function () {
