@@ -8,8 +8,10 @@ Includes: <br>
 <a href="https://www.npmjs.com/package/mongodb">mongodb</a> for interfacing with mongo. 
 
 ## Start
-- `git clone git@github.com:cotterjd/simple-express-boilerplate.git`<br>
-- `npm install` <br>
+- `$ git clone --depth=1 git@github.com:cotterjd/simple-express-boilerplate.git # clone, take only last commit from history`<br>
+- `$ mv simple-express-boilerplate actual_project_name`<br>
+- `$ cd actual_project_name`<br>
+- `$ npm install` <br>
 - add `.env` file based off `.env.example` with mongo connection string
 - replace "my-db" with name of your actual database name in `src/config/mongo.js`
 - `npm start`<br>
