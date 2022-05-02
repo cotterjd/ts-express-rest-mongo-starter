@@ -8,8 +8,8 @@ Includes: <br>
 <a href="https://www.npmjs.com/package/mongodb">mongodb</a> for interfacing with mongo. 
 
 ## Start
-- `$ git clone --depth=1 git@github.com:cotterjd/simple-express-boilerplate.git # clone, take only last commit from history`<br>
-- `$ mv simple-express-boilerplate actual_project_name`<br>
+- `$ git clone --depth=1 git@github.com:cotterjd/ts-express-rest-mongo-starter.git # clone, take only last commit from history`<br>
+- `$ mv ts-rest-express-mongo-starter actual_project_name`<br>
 - `$ cd actual_project_name`<br>
 - `$ npm install` <br>
 - add `.env` file based off `.env.example` with mongo connection string
